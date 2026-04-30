@@ -1,0 +1,58 @@
+@font-face {
+    font-family: LemMilk;
+    src: url("LemMilk.otf");
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: LemMilk, sans-serif;
+    color: white;
+}
+
+.box {
+    width: 80%;
+    max-width: 900px;
+    background: #1a1a1a;
+    border-radius: 14px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 2rem;
+}
+
+.top img {
+    width: 32px;
+}
+
+.more {
+    margin-top: 20px;
+    display: none;
+}
+
+.box.open .more {
+    display: block;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
