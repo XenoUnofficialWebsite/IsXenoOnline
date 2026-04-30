@@ -11,4 +11,4 @@ btn.onclick = (e) => {
     window.open("https://xeno.now/", "_blank");
 };
 
-local.textContent = "Your Timezone: " + new Date().toString();
+local.textContent = "Last Updated: " + new Date().toString();
