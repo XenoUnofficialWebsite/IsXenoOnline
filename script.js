@@ -12,11 +12,3 @@ btn.onclick = (e) => {
 };
 
 local.textContent = "Your Timezone: " + new Date().toString();
-
-if (!localStorage.getItem("visited")) {
-    localStorage.setItem("visited", "1");
-
-    fetch("https://your-worker.workers.dev", {
-        method: "POST"
-    });
-}
