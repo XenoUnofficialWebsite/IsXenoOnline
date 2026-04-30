@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: LemMilk, sans-serif;
+    font-family: LemMilk;
     color: white;
 }
 
@@ -52,6 +52,7 @@ button {
     border-radius: 8px;
     border: none;
     background: #4CAF50;
+    font-family: LemMilk;
     color: white;
     font-size: 1rem;
     cursor: pointer;
